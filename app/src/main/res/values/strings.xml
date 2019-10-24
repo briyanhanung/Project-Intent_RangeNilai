@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">RangeNilai</string>
+    <string name="nim">Nim</string>
+    <string name="name">Nama</string>
+    <string name="nilai">Nilai</string>
+    <string name="Proses">proses</string>
+    <string name="laporan_hasil_belajar">LAPORAN HASIL BELAJAR</string>
+    <string name="universitas_teknologi_yogyakarta">UNIVERSITAS TEKNOLOGI YOGYAKARTA</string>
+    <string name="kampus_1_jl_siliwangi_ringroad_utara_jombor_sleman_d_i_yogyakarta_55285_kampus_2_jl_glagahsari_no_63_d_i_yogyakarta_55164_kampus_3_jl_prof_soepomo_sh_no_21_d_i_yogyakarta_55165">Kampus 1 : Jl. Siliwangi (Ringroad Utara), Jombor, Sleman, D.I. Yogyakarta 55285 Kampus 2 : Jl. Glagahsari No. 63, D.I. Yogyakarta 55164 Kampus 3 : Jl. Prof. Soepomo,SH. No. 21, D.I. Yogyakarta 55165</string>
+    <string name="back">BACK</string>
+
+</resources>

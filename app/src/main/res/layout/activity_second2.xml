@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#849EEE">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="110dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="200dp"
+        android:background="#FFFFFF"
+        android:paddingTop="20dp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50dp"
+            android:text="@string/laporan_hasil_belajar"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textViewHasil"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textView"
+            android:layout_margin="20dp"
+            android:textSize="20sp"
+            android:textStyle="italic" />
+
+
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="95dp"
+        android:layout_height="74dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="20dp"
+        app:srcCompat="@mipmap/logo" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="286dp"
+        android:layout_height="49dp"
+        android:layout_toRightOf="@id/imageView3"
+        android:paddingTop="30dp"
+        android:text="@string/universitas_teknologi_yogyakarta"
+        android:textColor="#FFFFFF"
+        android:textSize="15sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="286dp"
+        android:layout_height="45dp"
+        android:layout_below="@id/textView2"
+        android:layout_toRightOf="@id/imageView3"
+        android:paddingTop="9dp"
+        android:text="@string/kampus_1_jl_siliwangi_ringroad_utara_jombor_sleman_d_i_yogyakarta_55285_kampus_2_jl_glagahsari_no_63_d_i_yogyakarta_55164_kampus_3_jl_prof_soepomo_sh_no_21_d_i_yogyakarta_55165"
+        android:textColor="#FFFFFF"
+        android:textSize="8sp" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="670dp"
+        android:layout_marginRight="20dp"
+        android:background="#DD2C56"
+        android:text="@string/back"
+        android:textColor="#FFFFFF" />
+
+</RelativeLayout>
